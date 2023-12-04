@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+    h1{
+        text-align:center;
+				font-family: "Times New Roman", Times, serif;
+				font-size:50px;
+				background :rgba(0, 0, 0, 0.5);
+				border-radius:15px;
+				color:rgb(255, 161, 20);
+        margin-right: 100px;
+      }
+
+      .buttons a{
+        font-family:"Times New Roman", Times, serif ;
+				font-size:20px;
+				font-weight:bold;
+		  	background:rgba(0,0,0,.5);
+				width:160px;
+				padding:10px;
+				text-align: center ;
+				text-transform: uppercase ;
+				color:rgb(255, 161, 20);
+				border-radius:10px;
+				cursor:pointer;
+				box-shadow:0 0 10px rgba(0,0,0,.5);
+				text-decoration:none;
+      }
+
+      .buttons li{
+        padding:15px;
+      }
+      .buttons a:hover{
+        background-color: rgb(54, 0, 0);
+        color: rgb(255, 161, 20);
+      }
+      .buttons a.active{
+        background-color: rgb(255, 161, 20);
+        color: rgb(54, 0, 0);
+      }
+
+      body{
+        background-image: url(bld.jpeg) ;
+        background-size: cover;
+      }
+      .split{
+        height:100%;
+        width:50%;
+        position:fixed;
+        x-index:1;
+        top:0;
+        overflow-x:hidden;
+        padding-top:20px;
+      }
+      .left{
+        left:0;
+        width:40%;
+      }
+      .right{
+        right:0;
+        width:60%;
+      }
+
+      .logo img{
+        padding:50px;
+        width:200px;
+      }
+      .left{
+        background:linear-gradient(to right,rgb(0,0,0),rgba(0, 0, 0,0.5),rgb(5, 109, 86,0));
+       }
+       .pics{
+        color:rgb(255, 161, 20);
+        background:rgba(0, 0, 0, 0.7);
+				border-radius:10px;
+        margin-right: 50px;
+      }
+      .pics:hover{
+        background-color:rgba(0,0,0,.9) ;
+      }
+      .pics p{
+        font-size: 30px;
+        font-style: italic;
+        padding:20px;
+      }
+      .pics h2{
+        font-size: 50px;
+      }
+      .march{
+        color:rgb(255, 161, 20);
+        background:rgba(0, 0, 0, 0.7);
+				border-radius:10px;
+        margin-right: 50px;
+      }
+      .march:hover{
+        background-color:rgba(0,0,0,.9) ;
+      }
+      .march p{
+        font-size: 30px;
+        font-style: italic;
+        padding:20px;
+        margin: auto;
+      }
+      .march h2{
+        font-size: 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="split left">
+      <aside>
+        <div class="logo">
+          <img src="csu.png">
+        </div>
+        <div class="buttons">
+          <ul>
+    
+            <li><a href="hom.html">HOME</a></li>
+            <li><a href="misvis.html">MISSION &  VISION</a></li>
+            <li><a class="active" href="boff.html">UNIVERSITY HYMN</a></li>
+            <li><a href="gal.html">ADMINISTRATION</a></li>
+            <li><a href="soi.html">CONTACTS</a></li>
+            
+        </ul>
+        </div>
+      </aside>
+    </div>
+
+    <div class="split right">
+      <h1>CAGAYAN STATE UNIVERSITY</h1>
+      <div class="pics">
+        <h2>UNIVERSITY HYMN</h2>
+        <P>Fount of our visions, cradle of our dreams,
+          well-spring of the fondest hopes
+          for the youth of this our vale.
+          God bless you, our University
+          God go before you always.
+          That we your sons and daughters
+          be servants of truth
+          Guardians of justice and instruments of love
+          Rise without fear for our freedoms.
+          Search without ceasing for all that is true.
+          God be with you, our cherished CSU,
+          May His light ever unfold you.</P>
+      </div>
+      <div class="march">
+        <h2>UNIVERSITY MARCH</h2>
+        <P>Sa luntiang lambak ng Cagayan
+          Sumilang ang isang pamantasan
+          Duyan ng mga kabataan
+          Sagot tuklas sa karunungan
+          Panatilihin ang pag-unlad
+          Minamahal naming CSU
+          Turo't sining mo ay ilahad
+          Ang bukas naming ay hawak mo.
+          Dinggin tawag ng kaunlaran
+          Isip kabataa'y lawakan
+          Saliksik pasuri'y tibayan
+          Buhay at bayan ay yayaman
+          Bathalang gabay ng CSU
+          Buksang liwanag ang landas mo
+          Murang isipa'y bigyang payo
+          Lakad naming ay taas noo.</P>
+      </div>
+  </body>
+</html>
